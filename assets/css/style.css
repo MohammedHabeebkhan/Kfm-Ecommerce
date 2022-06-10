@@ -1,0 +1,78 @@
+.card {
+    text-align: center;
+    vertical-align: middle;
+    /* margin-top: 17%; */
+    width: 100%;
+    height: 250px;
+    border-radius: 20px;
+}
+
+#webcoderskull {
+    position: absolute;
+    left: 0;
+    top: 35%;
+    padding: 0 20px;
+    width: 100%;
+    text-align: center;
+}
+
+#webcoderskull h4{
+    margin: 15px 0 0 0;
+    color:rgba(9, 9, 121, 1)
+}
+
+
+canvas {
+    height: 100vh;
+    background-color: #4639fc;
+}
+
+#webcoderskull h1 {
+    background: -webkit-linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 33%, rgba(8, 213, 255, 1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 20% 0 0 0;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+@media (max-width: 920px) and (min-width: 500px) {
+    #webcoderskull h1 {
+        margin: 10% 0 0 0;
+    }
+}
+
+@media (max-width: 2500px) and (min-width: 922px) {
+    #webcoderskull {
+        top: 30%;
+    }
+    #webcoderskull h1 {
+        vertical-align: center;
+        margin: 7% 0 0 0;
+    }
+}
+
+
+/*--------------------------------------------------------------
+# Footer
+--------------------------------------------------------------*/
+
+#footer {
+    background: #111111;
+    padding: 0 0 30px 0;
+    color: #fff;
+    font-size: 12px;
+    /* margin: 0px 0 0 0; */
+}
+
+#footer .copyright {
+    text-align: center;
+    padding-top: 30px;
+}
+
+#footer .credits {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 11px;
+    color: #fff;
+}
